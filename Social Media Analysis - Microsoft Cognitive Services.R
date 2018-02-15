@@ -252,7 +252,7 @@ comentarios <- comentarios %>%
   ) %>%
   mutate(source=fb.pages)
 
-
+    
 
 ##Export posts comments with sentiment score and polarity
 fb.comentarios.file.name <- paste0(output.path,"fb_comentarios","_",fb.pages,"_",period,".xlsx")
